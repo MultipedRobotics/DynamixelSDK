@@ -101,7 +101,7 @@ WINDECLSPEC uint16_t    pingGetModelNum     (int port_num, int protocol_version,
 WINDECLSPEC void        broadcastPing       (int port_num, int protocol_version);
 WINDECLSPEC uint8_t     getBroadcastPingResult  (int port_num, int protocol_version, int id);
 
-WINDECLSPEC void        reboot              (int port_num, int protocol_version, uint8_t id);
+// WINDECLSPEC void        reboot              (int port_num, int protocol_version, uint8_t id);
 
 WINDECLSPEC void        clearMultiTurn      (int port_num, int protocol_version, uint8_t id);
 
